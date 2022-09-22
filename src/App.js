@@ -1,26 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import ApplyForm from './component/ApplyForm';
+//import HeadEvent from './component/HeadEvent';
+import NavbarA from './component/NavbarA';
+
 
 function App() {
   return (
-    <div className="App">
-      <div className="blank">
-        Awesome
-      </div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Omkar <code>Is here</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='root'>
+<NavbarA title="COOPeR" />
+<ApplyForm />
     </div>
   );
 }

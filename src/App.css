@@ -42,3 +42,20 @@
 {
   color: blue;
 }
+
+.title-font
+{
+  font-family:Bradley Hand, cursive;
+}
+
+.he-block
+{
+  background-color: grey;
+  padding: 10px;
+}
+
+.he-main
+{
+  margin:100px;
+  background: rgb(196, 243, 196);
+}
